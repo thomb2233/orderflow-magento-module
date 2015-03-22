@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <SixBySix_CustomValue>
+            <version>0.0.0.1</version>
+        </SixBySix_CustomValue>
+    </modules>
+    <global>
+        <models>
+            <customvalue>
+                <class>SixBySix_CustomValue_Model</class>
+            </customvalue>
+            <catalog>
+                <rewrite>
+                    <product>SixBySix_CustomValue_Model_Catalog_Product</product>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+    <rtd_mappings>
+        <product>
+            <export>
+                <CustomValue>customValue</CustomValue>
+            </export>
+        </product>
+    </rtd_mappings>
+</config>
