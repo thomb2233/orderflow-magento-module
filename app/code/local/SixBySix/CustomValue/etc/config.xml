@@ -15,6 +15,11 @@
                     <product>SixBySix_CustomValue_Model_Catalog_Product</product>
                 </rewrite>
             </catalog>
+            <sales>
+                <rewrite>
+                    <order>SixBySix_CustomValue_Model_RealTimeDespatch_Sales_Order</order>
+                </rewrite>
+            </sales>
         </models>
     </global>
     <rtd_mappings>
@@ -23,5 +28,9 @@
                 <CustomValue>customValue</CustomValue>
             </export>
         </product>
+        <order>
+            <CustomField>customOrderField</CustomField>
+            <OrderCreateDate>createDateValue</OrderCreateDate>
+        </order>
     </rtd_mappings>
 </config>
